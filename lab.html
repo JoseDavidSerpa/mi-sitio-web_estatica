@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Sitio Web</title>
+    
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="about-me">
+    <h1>¡Hola soy Jose Serpa Bienvenidos a mi sitio web</h1>
+    <h2>la evolución tecnológica</h2>
+    <P>Es un proceso que se caracteriza por la transformación de la sociedad
+        a través de cambios en la eficiencia, la productividad, el 
+        aprendizaje, el desarrollo gerencial, los conocimientos y la interacción social
+    </P>
+    <img src="imagen/EvolucionT.jpg" alt="imagen">
+    </div>
+    
+    <div id="links">
+        <a href="https://www.facebook.com/josedavid.serpabolano.7">facebook</a>
+        <a href="https://github.com/">GitHub</a>
+    </div>
+
+    <div class="hobbies">
+        <h1>Pasatiempos</h1>
+        <ul>
+            <li>Hincha de Nacionnal</li>
+            <li>Me gusta la tecnologías</li>
+            <li>Realizar deporte</li>
+        </ul>
+    </div>
+
+    <div class="tasks">
+        <h1>Tareas-Obligaciones</h1>
+        <ol>
+            <li>Ir a  clase</li>
+            <li>Ir al trabajo</li>
+            <li>Ir de compras</li>
+            <li>Reuniones Biblicos</li>
+            <li>Hacer oficio en la casa</li>
+            <li>Bañar a mis mascotas</li>
+            <li>Pasear a la mascota</li>
+        </ol>
+    </div>
+
+    <div class="schedule">
+        <h1>Horarios semanal</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                    <th>Savado</th>
+                    <th>Domingo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ir a  clase</td>
+                    <td>Ir al trabajo</td>
+                    <td>Bañar a mis mascotas</td>
+                    <td>Hacer oficio en la ca</td>
+                    <td>Pasear a la mascota</td>
+                    <td>Reuniones Biblicos</td>
+                    <td>Ir de compras</td>
+                </tr>
+                <tr>
+                    <td>Ir a  clase</td>
+                    <td>Ir al trabajo</td>
+                    <td>Bañar a mis mascotas</td>
+                    <td>Hacer oficio en la ca</td>
+                    <td>Pasear a la mascota</td>
+                    <td>Reuniones Biblicos</td>
+                    <td>Ir de compras</td>
+                </tr>
+                <tr>
+                    <td>Ir a  clase</td>
+                    <td>Ir al trabajo</td>
+                    <td>Bañar a mis mascotas</td>
+                    <td>Hacer oficio en la ca</td>
+                    <td>Pasear a la mascota</td>
+                    <td>Reuniones Biblicos</td>
+                    <td>Ir de compras</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="contact-form">
+        <h1>Formulario de contacto</h1>
+        <form action="">
+            <input required type="text" id="nombre" placeholder="Nombre">
+            <input required type="text" id="descripcion" placeholder="Descripcion">
+            <input required type="email" id="correo" placeholder="Correo">
+            <input type="tel" name="Cel" maxlength="10"placeholder="Celular">
+            <select required="">
+                <option value="" disabled="" selected="">* Seleccione el genero</option>
+                <option value="Co">Masculino</option>
+                <option value="Co">Femenino</option>
+            </select>
+            <button type="submit" id="form-button">Enviar informacion</button>
+        </form>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
